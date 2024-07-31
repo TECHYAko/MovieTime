@@ -22,11 +22,17 @@
           </tr>
         </thead>
         <tbody id="movieTableBody"></tbody>
+        <tfoot>
+          <tr>
+            <td class="col-10">
+              <input class="form-control" type="text" id="movieName" placeholder="Movie Name" />
+            </td>
+            <td class="col-1">
+              <button class="btn btn-success form-control form-control" onclick="addMovie()">Add</button>
+            </td>
+          </tr>
+        </tfoot>
       </table>
-      <div class="w-75 d-flex">
-        <input class="form-control" type="text" id="movieName" placeholder="Movie Name" />
-        <button class="btn btn-success form-control w-25" onclick="addMovie()">Add</button>
-      </div>
     </div>
   </div>
 
