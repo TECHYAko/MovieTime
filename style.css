@@ -1,4 +1,9 @@
 #main-h1 {
     padding-left: 780px;
     padding-top: 40px;
+    padding: 30px;
+}
+
+#inputGroup-sizing-default {
+  padding-top: 1px;
 }
